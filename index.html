@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon2.ico"
+    >
+    <link rel="stylesheet" href="/css/spotify.css">
+    <link rel="stylesheet" href="/css/utility.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="container flex bg-black">
+
+            <!-- Left box -->
+            <div class="left height-left ">
+                <div class="close invert">
+                    <img src="./img/close.svg" width="15px" alt="">
+                </div>
+                <div class="home rounded  bg-black bg-grey  p-10 ">
+                    <div class="logo">
+                        <img src="./img/slogo.svg" a lt="">
+                    </div>
+
+                    <ul>
+                        <li class="p-10"><img class="invert w-20" src="./img/home.svg" alt="home">Home</li>
+                        <li class="p-10"><img class="invert w-20" src="./img/search.svg" alt="home">Search</li>
+                    </ul>
+                </div>
+
+                <!-- Library -->
+                <div class="libraryBox bg-grey rounded m-5 p-10 ">
+
+                    <div class="library flex  items-center  space-between  ">
+                        <div class="leftLib flex items-center gap-10 ">
+                            <img class=" w-20" src="./img/library.svg" alt="">
+                            Your library
+                        </div>
+                        <div class="plus">
+                            <img class="w-15" src="./img/plus.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Create playlist -->
+                    <div class="createSlider">
+
+                        <!-- This commented code will be executed before login -->
+
+                        <!-- <div class="createPlaylist rounded bg-grey2">
+                            <div class="mar-bottom fsize-16 fweight-7">Create your first playlist</div>
+                            <div class="mar-bottom fsize-14 fweight-4">It's easy, we'll help you</div>
+                            <button class="btn-lib">Create playlist</button>
+
+                        </div> -->
+                        <!-- Browse Podcasts -->
+                        <!-- <div class="browsePodcasts  rounded bg-grey2">
+                            <div class="mar-bottom fsize-16 fweight-7">Let's find some podcasts to follow</div>
+                            <div class="mar-bottom fsize-14 fweight-4">We'll keep you updated on new episodes</div>
+                            <button class="btn-lib">Browse podcasts</button>
+                        </div> -->
+
+
+                        <!-- code below this will be excuted after login -->
+                        <div class="songList">
+                            <ul>
+                                <!-- <li>
+                                    <img class="invert" src="music.svg" alt="">
+                                    <div class="info">
+                                        <div>Song Name</div>
+                                        <div>Song Artist</div>
+                                    </div>
+                                    <div class="playNow">
+                                        <div>Play now</div>
+                                        <img class="invert w-20" src="play.svg" alt="">
+                                    </div>
+                                </li>  -->
+
+                            </ul>
+
+                        </div>
+
+
+
+
+
+
+                        <!-- Footer -->
+
+                        <div class="footer">
+                            <div class="footElements one mar-top pad-top">
+                                <a class="p-x" href="/">Legal</a>
+
+                                <a class="p-x" href="/">Safety & Privacy Center</a>
+                            </div>
+                            <div class="footElements two mar-top">
+                                <a class="p-x" href="/">Cookies</a>
+                                <a class="p-x" href="/">Privacy Policy</a>
+                                <a class="p-x" href="/">About Ads</a>
+                            </div>
+                            <div class="footElements three mar-top">
+                                <a class="p-x" href="/">Accessibility</a>
+                            </div>
+                            <div class="footElements four mar-top">
+                                <a class="p-x" href="/">Cookies</a>
+                            </div>
+                            <div class="footElements five  pad-top">
+                                <button class="btn-lib btn-earth">
+                                    <img class="invert" src="./img/earth.svg" alt="">English
+
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- right box -->
+            <div class="right rounded p-3">
+                <div class="rightBox libraryBox bg-grey rounded p-10 ">
+
+                    <div class="navbar library  flex  items-center  space-between  ">
+
+                        <div class="hamburgerContainer">
+                            <div class="leftLib flex items-center gap-10  ">
+                                <img class="invert hamburger" src="./img/hamburger.svg" alt="">
+                                <img class="w-20 invert" src="./img/arrow.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="navRight">
+                            <a href="/">Sign up</a>
+                            <button class="btn-log btn-lib">Log in</button>
+                        </div>
+                    </div>
+
+
+                    <!-- Popular albums -->
+
+                    <div class="rightSlider">
+                        <section class="sectionAlbums section-1  bg-grey  column ">
+                            <div class="albumHeading flex space-between m-5 p-10 bg-grey">
+
+                                <div class="popular">Popular albums</div>
+                                <div class="showAll">Show all</div>
+                            </div>
+
+                            <div class="album">
+                                <!-- <div data-folder="ncs" class="card  card1 ">
+
+                                    <div class="img1 ">
+                                        <div class="playGreen">
+                                            <img src="playGreen.svg" alt="">
+                                        </div>
+                                        <img class="rounded-20"
+                                            src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3"
+                                            alt="">
+                                        <div class="songName flex column ">Aashiqui 2
+                                            <div class="singer">
+                                                <div>
+                                                    <a href="/">Mithoon,</a>
+                                                    <a href="/">Ankit Tiwari,</a>
+                                                </div>
+                                                <div>
+                                                    <a class="" href="/">Jeet Gannguli</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div data-folder="cs" class="card  card2 ">
+                                    <div class="img1 ">
+                                        <div class="playGreen">
+                                            <img src="playGreen.svg" alt="">
+                                        </div>
+                                        <img class="rounded-20"
+                                            src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36"" alt="">
+                                    <div class=" songName flex column ">Making Memories
+                                        <div class=" singer">
+                                        <div>
+                                            <a href="/">Karan Aujla,</a>
+                                            <a href="/">Ikky</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div> -->
+
+
+                                <!-- <div class="card  card3 ">
+                        <div class="img1 ">
+                            <div class="playGreen">
+                                <img  src="playGreen.svg" alt="">
+                        </div>
+                            <img class="rounded-20"
+                                src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae" alt="">
+                            <div class="songName flex column ">Moosetape
+                                <div class="singer">
+                                    <div>
+                                        <a href="/">Sidhu Moose Wala</a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                                <!-- <div class="card card4">
+                        <div class="img1 ">
+                            <div class="playGreen">
+                                <img  src="playGreen.svg" alt="">
+                        </div>
+                            <img class="rounded-20"
+                                src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" alt="">
+                            <div class="songName flex column ">Ek Tha Raja
+                                <div class="singer">
+                                    <div>
+                                        <a href="/">Badshah</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+ </div>
+
+                   
+                    
+                      
+           
+                <!-- Spotify Playlists -->
+
+
+                </section>
+
+                <footer>
+                    <div class="footerRight grid-5 ">
+                        <div class="footer-1 column">
+                            <span class="footerLines footerBold"><a href="/">Company</a></span>
+                            <span class="footerLines footerLight"><a href="/">About</a></span>
+                            <span class="footerLines footerLight"><a href="/">Jobs</a></span>
+                            <span class="footerLines footerLight"><a href="/">For the Record</a></span>
+                        </div>
+
+                        <div class="footer-1 column">
+                            <span class="footerLines footerBold"><a href="/">Company</a></span>
+                            <span class="footerLines footerLight"><a href="/">About</a></span>
+                            <span class="footerLines footerLight"><a href="/">Jobs</a></span>
+                            <span class="footerLines footerLight"><a href="/">For the Record</a></span>
+                        </div>
+
+                        <div class="footer-1 column">
+                            <span class="footerLines footerBold"><a href="/">Company</a></span>
+                            <span class="footerLines footerLight"><a href="/">About</a></span>
+                            <span class="footerLines footerLight"><a href="/">Jobs</a></span>
+                            <span class="footerLines footerLight"><a href="/">For the Record</a></span>
+                        </div>
+
+                        <div class="footer-1 column">
+                            <span class="footerLines  footerBold "><a href="/">Company</a></span>
+                            <span class="footerLines footerLight"><a href="/">About</a></span>
+                            <span class="footerLines footerLight"><a href="/">Jobs</a></span>
+                            <span class="footerLines footerLight"><a href="/">For the Record</a></span>
+                        </div>
+
+
+                        <div class="footer-5 flex gap-10 ">
+                            <span class="socialMedia  flex items-center justify-center ">
+                                <img class="invert w-20" src="./img/instagram.svg" alt="">
+                            </span>
+
+                            <span class="socialMedia flex items-center justify-center ">
+                                <img class="invert w-20" src="./img/twitter.svg" alt="">
+                            </span>
+                            <span class="socialMedia flex items-center justify-center ">
+                                <img class="invert w-20" src="./img/fb.svg" alt="">
+                            </span>
+
+                        </div>
+
+
+                    </div>
+                    <div class="footer-6 seperation"></div>
+                    <div class="footer-7 ">
+                        <span> © 2024 Spotify AB</span>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Playbar -->
+    <div class="playBar ">
+
+        <div class="seekbar">
+            <div class="circle">
+
+            </div>
+
+        </div>
+
+        <div class="flexPlaybar flex  space-between items-center">
+
+
+            <div class="songInfo">
+
+            </div>
+            <div class="songButtons flex  gap-10 items-center ">
+                <img id="previous" width="25px" class="invert" src="./img/playBack.svg" alt="">
+                <img id="play" width="25px" class="invert" src="./img/play.svg" alt="">
+                <img id="next" width="25px" class="invert" src="./img/playfront.svg" alt="">
+            </div>
+            <div class="timeVol">
+
+                <div class="songTime">
+
+                </div>
+                <div class="volume">
+                    <img class="invert" src="./img/volume.svg " alt="">
+                    <div class="volRange">
+                        <input step="any" value="%VOLM" id="volm" type="range" name="volume">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script src="./js/spotify.js"></script>
+</body>
+
+</html>

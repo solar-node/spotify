@@ -1,0 +1,134 @@
+
+
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content:  center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.border{
+    border: 2px solid rgb(180, 7, 7);
+    margin: 3px;
+}
+
+
+.invert{
+    filter:invert(1);
+}
+
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+background-color: #121212;
+}
+
+.bg-grey2{
+    background-color: #232323;
+}
+
+.rounded{
+    border-radius:10px ;
+}
+.m-5{
+    margin: 5px;
+}
+.p-10{
+    padding: 10px;
+}
+.w-20{
+    width: 20px;
+}
+.w-15{
+    width: 15px;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.gap-10{
+    gap: 10px;
+}
+
+.fsize-16{
+    font-size: 16px;
+}
+.fsize-14{
+    font-size: 14px;
+}
+.fweight-7{
+    font-weight: 400;
+}
+.fweight-4{
+    font-weight: 200;
+}
+
+.mar-bottom{
+    margin:0 0 16.5px 0;
+
+}
+
+.p-x{
+    padding: 6px;
+}
+
+.mar-top{
+    margin-top: 11px;
+}
+.pad-top{
+
+     padding-top: 30px;
+}
+.bg-greynav{
+    background-color: #101010;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 285px;
+}
+.hw{
+    width: 500px;
+    height: 100px;
+}
+.p-3{
+    padding: 10px 10px 10px 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.img-width{
+    width: 100px;
+
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.rounded-20{
+    border-radius: 20px;
+}
+
+
+
+.circleBg{
+    width: 50px;
+}
+.seperation{
+    height:3px;
+    background-color: rgb(31, 31, 31);
+    position: relative;
+    margin: 30px 10px;
+}
